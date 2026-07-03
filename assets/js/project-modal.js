@@ -4,40 +4,110 @@ const projectData = {
 		title: "Project Sunrise",
 		description: "Modern residential design featuring natural light and sustainable materials. This project showcases innovative approaches to contemporary living spaces with emphasis on environmental consciousness and aesthetic harmony.",
 		images: [
-			"images/project-sunrise-1.jpeg",
-			"images/project-sunrise-2.jpeg",
-			"images/project-sunrise-3.jpeg",
-			"images/project-sunrise-4.jpeg"
+			"images/projects/sunrise/01.jpg",
+			"images/projects/sunrise/02.jpg",
+			"images/projects/sunrise/03.jpg",
+			"images/projects/sunrise/04.jpg"
 		]
 	},
-	cp: {
-		title: "Project CP",
-		description: "Contemporary commercial space with innovative spatial solutions. A thoughtful integration of form and function that creates an inspiring environment for modern business operations.",
+	alvorada: {
+		title: "Project Alvorada",
+		description: "A refined residential project with expressive geometry and luminous interior spaces. It blends clean architectural forms with thoughtful material detail.",
 		images: [
-			"images/project-cp-1.jpeg",
-			"images/project-cp-2.jpeg",
-			"images/project-cp-3.jpeg",
-			"images/project-cp-4.jpeg"
+			"images/projects/alvorada/01.png",
+			"images/projects/alvorada/02.png",
+			"images/projects/alvorada/03.png",
+			"images/projects/alvorada/04.png"
 		]
 	},
-	au: {
-		title: "Project AU",
-		description: "Urban architecture blending functionality with aesthetic excellence. This project demonstrates how contemporary design can enhance urban living while respecting the surrounding context.",
+	bosque: {
+		title: "Project Bosque",
+		description: "A warm, nature-inspired interior project that uses organic textures and soft lighting for a calm, atmospheric result.",
 		images: [
-			"images/project-au-1.jpeg",
-			"images/project-au-2.jpeg",
-			"images/project-au-3.jpeg",
-			"images/project-au-4.jpeg"
+			"images/projects/bosque/01.jpg",
+			"images/projects/bosque/02.jpg",
+			"images/projects/bosque/03.jpg",
+			"images/projects/bosque/04.jpg"
 		]
 	},
 	wood: {
 		title: "Project Wood",
 		description: "Eco-friendly design incorporating natural wood elements. A harmonious blend of organic materials and modern design principles creating warm, inviting spaces.",
 		images: [
-			"images/project-wood-1.jpeg",
-			"images/project-wood-2.jpeg",
-			"images/project-wood-3.jpeg",
-			"images/project-wood-4.jpeg"
+			"images/projects/wood/01.png",
+			"images/projects/wood/02.png",
+			"images/projects/wood/03.png",
+			"images/projects/wood/04.png"
+		]
+	},
+	clinicaAlpes: {
+		title: "Project Clinica Alpes",
+		description: "A clinical interior design with refined details and calm material palettes, tailored for professional healthcare spaces.",
+		images: [
+			"images/projects/clinica-alpes/01.jpg",
+			"images/projects/clinica-alpes/02.jpg",
+			"images/projects/clinica-alpes/03.jpg",
+			"images/projects/clinica-alpes/04.jpg"
+		]
+	},
+	curves: {
+		title: "Project Curves",
+		description: "A sculptural interior concept with flowing forms, warm lighting, and elegant architectural movement.",
+		images: [
+			"images/projects/curves/01.png",
+			"images/projects/curves/02.png",
+			"images/projects/curves/03.png",
+			"images/projects/curves/04.png"
+		]
+	},
+	duplex: {
+		title: "Project Duplex",
+		description: "A contemporary duplex with spatial layering and refined finishes, designed for adaptive family living.",
+		images: [
+			"images/projects/duplex/01.jpg",
+			"images/projects/duplex/02.jpg",
+			"images/projects/duplex/03.jpg",
+			"images/projects/duplex/04.jpg"
+		]
+	},
+	marbleLines: {
+		title: "Project Marble Lines",
+		description: "A luxurious interior scheme featuring marble details, texture contrast, and elegant bathroom design.",
+		images: [
+			"images/projects/marble-lines/01.png",
+			"images/projects/marble-lines/02.png",
+			"images/projects/marble-lines/03.png",
+			"images/projects/marble-lines/04.png"
+		]
+	},
+	rooftop: {
+		title: "Project Rooftop",
+		description: "A bright rooftop living space with layered views, natural materials, and contemporary outdoor connection.",
+		images: [
+			"images/projects/rooftop/01.png",
+			"images/projects/rooftop/02.png",
+			"images/projects/rooftop/03.png",
+			"images/projects/rooftop/04.png"
+		]
+	},
+	white: {
+		title: "Project White",
+		description: "A crisp interior scheme that balances light-filled spaces, clean details, and soft, neutral textures.",
+		images: [
+			"images/projects/white/01.png",
+			"images/projects/white/02.png",
+			"images/projects/white/03.png",
+			"images/projects/white/04.png"
+		]
+	},
+	wcMaster: {
+		title: "Project WC Master",
+		description: "A master bathroom design with calming finishes, elegant tile layouts, and carefully composed lighting.",
+		images: [
+			"images/projects/wc-master/01.png",
+			"images/projects/wc-master/02.png",
+			"images/projects/wc-master/03.png",
+			"images/projects/wc-master/04.png"
 		]
 	}
 };
