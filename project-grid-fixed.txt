@@ -1,0 +1,42 @@
+						<!-- Project Grid -->
+						<div class="project-grid">
+							<div class="project-card" onclick="openProjectModal('sunrise')">
+								<h3 class="project-title">Project Sunrise</h3>
+								<div class="project-image">
+									<img src="images/project-sunrise.jpeg" alt="Project Sunrise" />
+									<div class="project-overlay">
+										<span class="view-project">View Project →</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="project-card" onclick="openProjectModal('cp')">
+								<h3 class="project-title">Project CP</h3>
+								<div class="project-image">
+									<img src="images/project-cp.jpeg" alt="Project CP" />
+									<div class="project-overlay">
+										<span class="view-project">View Project →</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="project-card" onclick="openProjectModal('au')">
+								<h3 class="project-title">Project AU</h3>
+								<div class="project-image">
+									<img src="images/project-au.jpeg" alt="Project AU" />
+									<div class="project-overlay">
+										<span class="view-project">View Project →</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="project-card" onclick="openProjectModal('wood')">
+								<h3 class="project-title">Project Wood</h3>
+								<div class="project-image">
+									<img src="images/project-wood.jpeg" alt="Project Wood" />
+									<div class="project-overlay">
+										<span class="view-project">View Project →</span>
+									</div>
+								</div>
+							</div>
+						</div>

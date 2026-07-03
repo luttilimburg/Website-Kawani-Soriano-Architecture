@@ -1,0 +1,20 @@
+# Kawani S. Architecture & Interior Design
+
+## About
+Kawani S. creates thoughtful architecture and interiors for homes, renovations, and boutique spaces. The work focuses on calm, personal design, clear concept development, documentation, and visualization.
+
+## Services
+- Concept design
+- Residential design
+- Commercial interior design
+- Visualization and design communication
+
+## Contact
+Email: kawanisorianoarquitetura@gmail.com
+Instagram: https://www.instagram.com/kasorianoarquitetura/
+LinkedIn: https://www.linkedin.com/in/kawani-s-4705ba17a/
+
+## Language Pages
+- English: index.html
+- Portuguese: index_br.html
+- Italian: index_it.html
