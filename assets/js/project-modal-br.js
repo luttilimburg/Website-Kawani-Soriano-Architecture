@@ -14,10 +14,10 @@ const projectData = {
 		title: "Projeto Alvorada",
 		description: "Um projeto residencial refinado com geometria expressiva e interiores luminosos. Combina formas arquitetônicas limpas com materiais cuidadosamente escolhidos.",
 		images: [
-			"images/projects/alvorada/01.png",
-			"images/projects/alvorada/02.png",
-			"images/projects/alvorada/03.png",
-			"images/projects/alvorada/04.png"
+			"images/projects/alvorada/01.jpg",
+			"images/projects/alvorada/02.jpg",
+			"images/projects/alvorada/03.jpg",
+			"images/projects/alvorada/04.jpg"
 		]
 	},
 	bosque: {
@@ -34,10 +34,10 @@ const projectData = {
 		title: "Projeto Wood",
 		description: "Design ecológico incorporando elementos naturais de madeira. Uma mistura harmoniosa de materiais orgânicos e princípios de design modernos criando espaços acolhedores e convidativos.",
 		images: [
-			"images/projects/wood/01.png",
-			"images/projects/wood/02.png",
-			"images/projects/wood/03.png",
-			"images/projects/wood/04.png"
+			"images/projects/wood/01.jpg",
+			"images/projects/wood/02.jpg",
+			"images/projects/wood/03.jpg",
+			"images/projects/wood/04.jpg"
 		]
 	},
 	clinicaAlpes: {
@@ -46,18 +46,18 @@ const projectData = {
 		images: [
 			"images/projects/clinica-alpes/01.jpg",
 			"images/projects/clinica-alpes/02.jpg",
-			"images/projects/clinica-alpes/03.png",
-			"images/projects/clinica-alpes/04.png"
+			"images/projects/clinica-alpes/03.jpg",
+			"images/projects/clinica-alpes/04.jpg"
 		]
 	},
 	curves: {
 		title: "Projeto Curves",
 		description: "Conceito escultórico com formas fluidas, iluminação suave e um ambiente interior elegante.",
 		images: [
-			"images/projects/curves/01.png",
-			"images/projects/curves/02.png",
-			"images/projects/curves/03.png",
-			"images/projects/curves/04.png"
+			"images/projects/curves/01.jpg",
+			"images/projects/curves/02.jpg",
+			"images/projects/curves/03.jpg",
+			"images/projects/curves/04.jpg"
 		]
 	},
 	duplex: {
@@ -74,40 +74,40 @@ const projectData = {
 		title: "Projeto Marble Lines",
 		description: "Banheiro luxuoso com detalhes em mármore, superfícies texturizadas e layout elegante.",
 		images: [
-			"images/projects/marble-lines/01.png",
-			"images/projects/marble-lines/02.png",
-			"images/projects/marble-lines/03.png",
-			"images/projects/marble-lines/04.png"
+			"images/projects/marble-lines/01.jpg",
+			"images/projects/marble-lines/02.jpg",
+			"images/projects/marble-lines/03.jpg",
+			"images/projects/marble-lines/04.jpg"
 		]
 	},
 	rooftop: {
 		title: "Projeto Rooftop",
 		description: "Espaço de cobertura iluminado com conexão ao exterior e materiais naturais.",
 		images: [
-			"images/projects/rooftop/01.png",
-			"images/projects/rooftop/02.png",
-			"images/projects/rooftop/03.png",
-			"images/projects/rooftop/04.png"
+			"images/projects/rooftop/01.jpg",
+			"images/projects/rooftop/02.jpg",
+			"images/projects/rooftop/03.jpg",
+			"images/projects/rooftop/04.jpg"
 		]
 	},
 	white: {
 		title: "Projeto White",
 		description: "Esquema claro com espaços arejados, detalhes limpos e texturas neutras suaves.",
 		images: [
-			"images/projects/white/01.png",
-			"images/projects/white/02.png",
-			"images/projects/white/03.png",
-			"images/projects/white/04.png"
+			"images/projects/white/01.jpg",
+			"images/projects/white/02.jpg",
+			"images/projects/white/03.jpg",
+			"images/projects/white/04.jpg"
 		]
 	},
 	wcMaster: {
 		title: "Projeto WC Master",
 		description: "Banheiro master com acabamentos calmos, layout refinado e iluminação cuidadosamente composta.",
 		images: [
-			"images/projects/wc-master/01.png",
-			"images/projects/wc-master/02.png",
-			"images/projects/wc-master/03.png",
-			"images/projects/wc-master/04.png"
+			"images/projects/wc-master/01.jpg",
+			"images/projects/wc-master/02.jpg",
+			"images/projects/wc-master/03.jpg",
+			"images/projects/wc-master/04.jpg"
 		]
 	}
 };
