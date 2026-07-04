@@ -18,6 +18,24 @@
 		<meta name="author" content="Kawani S." />
 		<link rel="canonical" href="https://luttilimburg.github.io/Website-Kawani-Soriano-Architecture/" />
 		<link rel="alternate" hreflang="en" href="https://luttilimburg.github.io/Website-Kawani-Soriano-Architecture/" />
+
+		<!-- Auto-redirect based on browser language: pt -> Portuguese, it -> Italian -->
+		<script>
+			(function(){
+				try {
+					var p = location.pathname || '/';
+					// Only run redirect on the site root or index.html itself
+					if (!(p.endsWith('/') || p.toLowerCase().endsWith('/index.html'))) return;
+					var lang = (navigator.languages && navigator.languages[0]) || navigator.language || '';
+					lang = (lang || '').toLowerCase();
+					if (lang.indexOf('pt') === 0) {
+						location.replace('index_br.html');
+					} else if (lang.indexOf('it') === 0) {
+						location.replace('index_it.html');
+					}
+				} catch (e) { /* fail silently */ }
+			})();
+		</script>
 		<link rel="alternate" hreflang="pt-BR" href="https://luttilimburg.github.io/Website-Kawani-Soriano-Architecture/index_br.html" />
 		<link rel="alternate" hreflang="it" href="https://luttilimburg.github.io/Website-Kawani-Soriano-Architecture/index_it.html" />
 		<link rel="alternate" hreflang="x-default" href="https://luttilimburg.github.io/Website-Kawani-Soriano-Architecture/" />
