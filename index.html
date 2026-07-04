@@ -19,13 +19,22 @@
 		<link rel="canonical" href="https://luttilimburg.github.io/Website-Kawani-Soriano-Architecture/" />
 		<link rel="alternate" hreflang="en" href="https://luttilimburg.github.io/Website-Kawani-Soriano-Architecture/" />
 
-		<!-- Auto-redirect based on browser language: pt -> Portuguese, it -> Italian -->
+		<!-- Auto-redirect based on saved preference, then browser language: pt -> Portuguese, it -> Italian -->
 		<script>
 			(function(){
 				try {
 					var p = location.pathname || '/';
 					// Only run redirect on the site root or index.html itself
 					if (!(p.endsWith('/') || p.toLowerCase().endsWith('/index.html'))) return;
+
+					// An explicit choice made via the language switcher always wins.
+					var match = document.cookie.match(/(?:^|; )lang_pref=([^;]*)/);
+					var pref = match ? decodeURIComponent(match[1]) : null;
+					if (pref === 'pt') { location.replace('index_br.html'); return; }
+					if (pref === 'it') { location.replace('index_it.html'); return; }
+					if (pref === 'en') { return; }
+
+					// No stored preference: fall back to browser language detection.
 					var lang = (navigator.languages && navigator.languages[0]) || navigator.language || '';
 					lang = (lang || '').toLowerCase();
 					if (lang.indexOf('pt') === 0) {
@@ -731,6 +740,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/lang-switcher.js"></script>
 			<script src="assets/js/project-modal.js"></script>
 
 	</body>

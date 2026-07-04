@@ -46,8 +46,8 @@ const projectData = {
 		images: [
 			"images/projects/clinica-alpes/01.jpg",
 			"images/projects/clinica-alpes/02.jpg",
-			"images/projects/clinica-alpes/03.jpg",
-			"images/projects/clinica-alpes/04.jpg"
+			"images/projects/clinica-alpes/03.png",
+			"images/projects/clinica-alpes/04.png"
 		]
 	},
 	curves: {
