@@ -126,11 +126,21 @@ function openProjectModal(projectId, event) {
 	document.getElementById('modalTitle').textContent = project.title;
 	document.getElementById('modalDescription').textContent = project.description;
 
-	// Set images
-	document.getElementById('modalImg1').src = project.images[0];
-	document.getElementById('modalImg2').src = project.images[1];
-	document.getElementById('modalImg3').src = project.images[2];
-	document.getElementById('modalImg4').src = project.images[3];
+	// Set images - the first shot loads with priority since it's visible
+	// immediately; the rest are deferred a tick so they don't compete for
+	// bandwidth/decode time with the one the user sees first.
+	const img1 = document.getElementById('modalImg1');
+	img1.fetchPriority = 'high';
+	img1.loading = 'eager';
+	img1.src = project.images[0];
+
+	['modalImg2', 'modalImg3', 'modalImg4'].forEach(function (id, i) {
+		const img = document.getElementById(id);
+		img.fetchPriority = 'low';
+		requestAnimationFrame(function () {
+			img.src = project.images[i + 1];
+		});
+	});
 
 	// Show modal
 	const modal = document.getElementById('projectModal');
